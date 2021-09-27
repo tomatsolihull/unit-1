@@ -5,3 +5,7 @@
 [submodule "themes/paper"]
 	path = themes/paper
 	url = https://github.com/nanxiaobei/hugo-paper
+
+[submodule "themes/etch"]
+	path = themes/etch
+	url = https://github.com/itsmeimtom/etch.git

@@ -1,13 +1,15 @@
 baseurl = "/"
 languageCode = "en-gb"
+enableInlineShortcodes = true
 
 title = "TR's College Blog"
-subtitle = "A place for college assignment tasks that must be submitted in blog form"
-author = "Thomas Robinson"
-copyright = "All Rights Reserved"
-
-theme = "paper"
-paginate = 999
+theme = "etch"
+[params]
+  description = "A place for college assignment tasks that must be submitted in blog form"
+  copyright = "Thomas Robinson"
+  dark = "auto"
+  highlight = false
+  cftoken = "5de9f6aff4e040678b483cfa18a1b2a4"
 
 [taxonomies]
 tag = "tags"
@@ -17,8 +19,24 @@ tag = "tags"
     identifier = "what"
     name = "What is This?"
     url = "/what/"
+    weight = 100
 
-   [[menu.main]]
+  [[menu.main]]
+    identifier = "u1"
+    name = "Unit 1 Posts"
+    url = "/tags/u1"
+    weight = 1
+
+  [[menu.main]]
     identifier = "home"
-    name = "Post List"
+    name = "All Posts"
     url = "/"
+    weight = 2
+
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
+
+[permalinks]
+  posts = "/post/:title/"
