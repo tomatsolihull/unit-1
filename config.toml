@@ -1,0 +1,32 @@
+baseurl = "/"
+languageCode = "en-gb"
+paginate = 100
+
+title = "TR's College Blog"
+subtitle = "A place for college assignment tasks that must be submitted in blog form"
+author = "Thomas Robinson"
+copyright = "All Rights Reserved"
+
+languageName = "English"
+owner = "TomR.me"
+
+theme = "paper"
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+[taxonomies]
+tag = "tags"
+
+[menu]
+  [[menu.main]]
+    identifier = "what"
+    name = "What is This?"
+    url = "/what/"
+
+   [[menu.main]]
+    identifier = "home"
+    name = "Post List"
+    url = "/"
