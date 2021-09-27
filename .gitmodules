@@ -1,11 +1,3 @@
-[submodule "themes/terminal"]
-	path = themes/terminal
-	url = https://github.com/panr/hugo-theme-terminal.git
-
-[submodule "themes/paper"]
-	path = themes/paper
-	url = https://github.com/nanxiaobei/hugo-paper
-
-[submodule "themes/etch"]
-	path = themes/etch
+[submodule "themes/etch-forked"]
+	path = themes/etch-forked
 	url = https://github.com/itsmeimtom/etch.git

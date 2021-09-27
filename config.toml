@@ -3,7 +3,7 @@ languageCode = "en-gb"
 enableInlineShortcodes = true
 
 title = "TR's College Blog"
-theme = "etch"
+theme = "etch-forked"
 [params]
   description = "A place for college assignment tasks that must be submitted in blog form"
   copyright = "Thomas Robinson"
@@ -39,4 +39,4 @@ tag = "tags"
   unsafe = true
 
 [permalinks]
-  posts = "/post/:title/"
+  posts = "/post/:filename/"
