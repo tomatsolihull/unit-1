@@ -1,9 +1,11 @@
-+++
-title = "Barriers to Communication & Overcoming Them"
-date = "2021-09-24"
-tags = ["u1","u1a1"]
-draft = false
-+++
+---
+title: "Barriers to Communication & Overcoming Them"
+date: 2021-09-24 # sept 24th
+tags:
+    - u1 # unit 1
+    - u1a1 # assignment 1
+draft: false
+---
 
 *Unit 1, Assignment 1, Task 3 (P3) + Task 5 (M1)*
 

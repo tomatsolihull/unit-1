@@ -1,0 +1,39 @@
+baseurl: /
+languageCode: en-gb
+enableInlineShortcodes: true
+
+title: TR's SolCol Blog
+theme: etch-forked
+
+params:
+  description: "A place for college assignment tasks that must be submitted in blog form"
+  copyright: "Thomas Robinson"
+  dark: auto
+  highlight: false
+  cftoken: 5de9f6aff4e040678b483cfa18a1b2a4
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - identifier: what
+      name: "What is This?"
+      url: /what/
+      weight: 100
+    - identifier: u1
+      name: "Unit 1 Posts"
+      url: /tags/u1/
+      weight: 1
+    - identifier: home
+      name: "All Posts"
+      url: /
+      weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # allow html in markdown
+
+permalinks:
+  posts: '/post/:filename/'
