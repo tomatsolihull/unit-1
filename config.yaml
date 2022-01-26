@@ -3,7 +3,7 @@ languageCode: en-gb
 enableInlineShortcodes: true
 
 title: TR's SolCol Blog
-theme: etch-forked
+theme: etch
 
 params:
   description: "A place for college assignment tasks that must be submitted in blog form"
