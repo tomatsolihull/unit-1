@@ -1,1 +1,1 @@
-# solcol-blog
+# Solihull College Blog
