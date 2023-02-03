@@ -1,13 +1,5 @@
----
-title: "Barriers to Communication & Overcoming Them"
-date: 2021-09-24 # sept 24th
-tags:
-    - u1 # unit 1
-    - u1a1 # assignment 1
-draft: false
----
-
-*Unit 1, Assignment 1, Task 3 (P3) + Task 5 (M1)*
+# Barriers to Communication & How they can be Overcome
+Originally published September 24th, 2021 at *blog.solcol.thomasr.me*. For Unit 1, Assignment 1, Task 3 (P3) + Task 5 (M1).
 
 ---
 
